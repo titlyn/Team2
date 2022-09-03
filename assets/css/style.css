@@ -1,8 +1,13 @@
 
-.container .left_bloc .description img {
+.container .left_bloc .description h1 .logo {
     border-radius: 50%;
     height: 40px;
     width: 40px;
+}
+
+.container .left_bloc .description h1 .etoile {
+    height: 30px;
+    width: 30px;
 }
 
 .container .left_bloc .description hr {
@@ -23,9 +28,8 @@
 
 .btns a {
     position: relative;
-    padding-left: 20px;
-    margin: 0 20px;
-    height: 60px;
+    text-align: center;
+    margin: 10px 20px;
     width: 200px;
     display: block;
     line-height: 60px;
@@ -71,3 +75,12 @@
         opacity: 0;
     }
 }
+
+.container .left_bloc .foot {
+    display: flex;
+}
+
+.container .left_bloc .foot p {
+    margin-left: 10px;
+}
+
