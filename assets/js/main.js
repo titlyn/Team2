@@ -12,3 +12,10 @@ buttons.forEach((button) => {
         }, 600);
     }
 })
+
+var typed = new Typed(".input", {
+    strings: ["and find your"],
+    typeSpeed: 80,
+    backSpeed: 80,
+    loop:true
+})

@@ -1,4 +1,11 @@
 
+.container {
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    padding: 50px;
+}
+
 .container .left_bloc .description h1 .logo {
     border-radius: 50%;
     height: 40px;
@@ -32,7 +39,7 @@
     margin: 10px 20px;
     width: 200px;
     display: block;
-    line-height: 60px;
+    line-height: 40px;
     border-radius: 30px;
     text-decoration: none;
     font-size: 18px;
