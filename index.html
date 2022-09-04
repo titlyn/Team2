@@ -5,36 +5,66 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Weekly Coding Challenge</title>
         <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/fontawesome-free-5.15.4-web/css/all.min.css">
+        <!-- <script src="assets/fontawesome-free-5.15.4-web/js/all.min.js"></script> -->
     </head>
 
-    <body>
-        <header>
-            Tolotra
-        </header>
-        
-            <div class="container">
-                <div class="left_bloc">
+    <body>        
+        <div class="container">
+            <header>
+                <nav>
+                    <div id="logo">
+                        <p>
+                            <i class="fas fa-cog icon"id="gear"></i>
+                            <span>Sinaux</span>
+                        </p>
+                    </div>
+                    <div id="navigation">
+                        <a href="#">Home</a>
+                        <a href="#">Courses <i></i></a>
+                        <a href="#">Blog</a>
+                        <a href="#">Pricing</a>
+                        <a id="signUp" href="#">
+                            <span>Sign up <i class="fas fa-plus"></i></span><br>
+                            <i class="fas fa-star mini-icon"></i><br>
+                            <span>Deine your future with Signaux</span>
+                        </a>
+                    </div>
+                </nav>
+            </header>
+            <div id="content">
+                <div id="text">
                     <div class="description">
-                        <h1>Grow your skill <img class="logo" src="./images/pf1.jpg" alt="img"><br>
-                        <hr> <span class="input"></span><br>
-                        perfect tutor. <img class="etoile" src="./images/etoile.png" alt="logo"></h1>
+                        <h1>
+                            Grow your skill <img class="mini-icon" id="miniPdp" src="./images/pf1.jpg" alt="img"><br>
+                            <span id="line"></span> and find your<br>
+                            perfect tutor. <img class="mini-icon" src="./images/etoile.png" alt="logo">
+                        </h1>
                     </div>
-
-                    <p>sed ut perspicants unde omnis iste natus error sit voluptatem accusantium.</p>
-
-                    <div class="btns">
+    
+                    <p id="smallParagraph">Sed ut perspicants unde omnis iste natus error sit voluptatem accusantium.</p>
+    
+                    <div id="btnsList">
                         <a href="#">Get Started</a>
-                        <a href="#">Browse Courses</i></a>
-                    </div>
-
-                    <div class="foot">
-                        <img src="./images/logo.png" alt=""><p>Over fice thousand students have given a 5 star reviwe to their tutor</p>
+                        <a href="#">Browse Courses <i class="fas fa-angle-down"></i></a>
                     </div>
                 </div>
+                <div id="picContainer">
+                    <p>
+                        <img src="./images/—Pngtree—computer working girl_6700679.png" alt="Working girl">
+                    </p>
+                </div>
             </div>
+            <div class="foot">
+                <div id="imgContainer">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div id="footParagraph">
+                    <p>Over fice thousand students have given a 5 star reviwe to their tutor</p>
+                </div>
+            </div>
+        </div>
 
-        
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
         <script src="./assets/js/main.js"></script>
     </body>
 </html>

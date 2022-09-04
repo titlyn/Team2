@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll("a");
+const buttons = document.querySelectorAll("#btnList a");
 buttons.forEach((button) => {
     button.onclick = function (e) {
         let x = e.clientX - e.target.offsetLeft;
@@ -11,11 +11,4 @@ buttons.forEach((button) => {
             ripple.remove();
         }, 600);
     }
-})
-
-var typed = new Typed(".input", {
-    strings: ["and find your"],
-    typeSpeed: 80,
-    backSpeed: 80,
-    loop:true
 })
